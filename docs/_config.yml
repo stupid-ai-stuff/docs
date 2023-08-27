@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+input: kramdown
 title: Stupid AI Stuff Wiki
 email: info.ai@burienstation.io
 description: >- # this means to ignore newlines until "baseurl:"
