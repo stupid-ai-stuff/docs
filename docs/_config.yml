@@ -40,6 +40,7 @@ kramdown:
   input: Kramdown
   parse_block_html: true
   parse_span_html: true
+  syntax_highlighter: rouge
 header_pages:
   - about.markdown
   - static/general-prompt-advice.md
