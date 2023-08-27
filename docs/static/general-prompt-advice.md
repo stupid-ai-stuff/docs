@@ -31,7 +31,10 @@ The AI does understand many axioms and logic concepts.
 > Note: Try to use a known axiom with the AI. If it does not work, attempt to explain the axiom to the AI. I find that using the summary paragraph from wikipedia is generally enough.
 
 #### Conversational Context
-The AI is **exceptional** at this. Given that this is a core language concept, the AI will
+The AI is **exceptional** at this. Given that this is a core language concept, the AI  be able to find this context easily. Explain using text as you would explain the conversation / social interaction to another human.
+
+### Verbosity
+To use an old physical-security addage: *"when it doubt, write it out"*, the concept here is, always feel free to include additional context for the AI. 
 
 
 ## In Context Information
