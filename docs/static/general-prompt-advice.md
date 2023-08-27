@@ -30,7 +30,7 @@ Many industries such as Power Generation where mistakes can be instantly fatal, 
 The AI has been trained on more information, and is able to recite more knowledge than any human is capable of. However, similar to a human, its knowledge on all of these things is not perfect. It is likely to produce fuzzy results, especially with numeric values. We will discuss some of the categories that it struggles with as well as it accels with.
 
 #### Numerics
-The AI does not have access to factual / up to date information on any subject relating to numerics. This Includes sports stats, stock market information, financial reports, and weather. This information is best collected before interacting with the AI and passed along via [In Context Information](#in-context-information). For a deep dive on this concept please see [Retrieval Augmented Generation](./retrieval-augmented-generation.md).
+The AI does not have access to factual / up to date information on any subject relating to numerics. This Includes sports stats, stock market information, financial reports, and weather. This information is best collected before interacting with the AI and passed along via [In Context Information](#in-context-information). For a deep dive on this concept please see [Retrieval Augmented Generation]({% link retrieval-augmented-generation.md %}).
 
 #### Axioms
 The AI does understand many axioms and logic concepts.
