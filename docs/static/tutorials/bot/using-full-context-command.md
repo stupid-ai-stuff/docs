@@ -1,5 +1,5 @@
 ---
-title: Retriveal Augmented Generation
+title: Using the Full Context Command
 permalink: /tutorials/bot/using-full-context-command/
 ---
 

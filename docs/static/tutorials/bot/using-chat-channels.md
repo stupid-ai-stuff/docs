@@ -1,5 +1,5 @@
 ---
-title: Retriveal Augmented Generation
+title: Using Chat Channels
 permalink: /tutorials/bot/using-chat-channels/
 ---
 
