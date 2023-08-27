@@ -32,7 +32,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
-input: kramdown
+markdown: kramdown
+highlighter: rouge
+input: Kramdown
+
 kramdown:
   input: Kramdown
   parse_block_html: true
