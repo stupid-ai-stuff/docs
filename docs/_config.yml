@@ -32,6 +32,9 @@ github_username:  stupid-ai-stuff
 theme: minima
 plugins:
   - jekyll-feed
+
+kramdown:
+  parse_block_html: true
 # header_pages:
 #   - static/about.md
 #   - static/classes.html
