@@ -4,10 +4,12 @@ layout: page
 permalink: /prompt-general/
 ---
 
-{:toc}
 
 ## Overview
 This document will cover the basics of writing good prompts - with a focus on real world scenarios. 
+
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 <!-- TODO: More content needs to go here -->
 
