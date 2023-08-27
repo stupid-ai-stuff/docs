@@ -37,9 +37,10 @@ kramdown:
   input: Kramdown
   parse_block_html: true
   parse_span_html: true
-# header_pages:
-#   - static/about.md
-#   - static/classes.html
+header_pages:
+  - about.markdown
+  - static/general-prompt-advice.md
+  - static/how-not-to-get-fired.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
