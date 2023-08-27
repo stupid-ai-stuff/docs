@@ -67,7 +67,7 @@ This is an example of a poor prompt because it is missing almost all of the info
 
 ##### Good Prompt
 
-```
+```text
 Write an essay detailing the use of the Friedrichshafen G.II aircraft during World War I. This essay is intended is for 'World War I History' a Graduage Study course for a History Major. The document should be at least 10 pages. Write the Document cover the following items. Format the output as Markdown:
 - The events leading up to the development of the aircraft
 - The development of the aircraft
