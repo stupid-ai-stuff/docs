@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+![](./assets/images/home.png)
+
+Welcome to **Stupid AI Stuff**, for more about us, please check out the [about]({% link about.markdown %}) page.
