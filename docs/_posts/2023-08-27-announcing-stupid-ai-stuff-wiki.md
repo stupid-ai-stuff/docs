@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Announcing the Stupid AI Stuff Wiki"
+date: 2023-08-27 13:20:00
 ---
 
 Today we have created the [Stupid AI Stuff Wiki](https://docs.ai.burienstation.io) (`https://docs.ai.burienstation.io`). We hope to put together a list of useful documents that will help you accomplish the following goals:
