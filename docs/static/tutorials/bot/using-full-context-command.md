@@ -19,10 +19,10 @@ The expectation for use of the `/gpt4 full_context` is that the user will pre-pr
 
 ![An image of the Discord Inteface showing the basic use of the Full Context Command](../../../assets/images/using-full-context-command/1-first-display.png)
 
-By default, the command will only **require** you to input the [System Message](../../concepts/open-ai/chat-completions.md#system-message), however this is **not an effective way to use the command**. For short / simple queries - it is best / most intuitive to use the Chat interface. It is highly recommended that you fill out all the other parameters.
+By default, the command will only **require** you to input the [System Message]({% link ../../concepts/open-ai/chat-completions.md#system-message %}), however this is **not an effective way to use the command**. For short / simple queries - it is best / most intuitive to use the Chat interface. It is highly recommended that you fill out all the other parameters.
 
 ### System Message (`system_msg`)
-The System Message sets the 'global rules' of the interaction. Often when working with a pre-prepared document with this command, it is not necessary to include a complex system message. If you find yourself processing *many* different files and including the same prompt fragments in them (for example "`Format the output as Markdown.`"), you can place these fragments in the System Message. Please see the [Chat Completions](../../concepts/open-ai/chat-completions.md#system-message) article for more information on how the **System Message** differes from **User Messages** and **Assistant Messages**.
+The System Message sets the 'global rules' of the interaction. Often when working with a pre-prepared document with this command, it is not necessary to include a complex system message. If you find yourself processing *many* different files and including the same prompt fragments in them (for example "`Format the output as Markdown.`"), you can place these fragments in the System Message. Please see the [Chat Completions]({% link ../../concepts/open-ai/chat-completions.md#system-message %}) article for more information on how the **System Message** differes from **User Messages** and **Assistant Messages**.
 
 For processing most prompts where most of the information is included in the uploaded file, the System Message can be set to "`You are a helpful AI Assistant. Follow all instructions from the user.`". By using this system message, you are ensuring the the user message (the uploaded file) is unrestricted in its instructions. 
 
