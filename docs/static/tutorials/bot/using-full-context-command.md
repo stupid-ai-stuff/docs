@@ -33,7 +33,7 @@ For processing most prompts where most of the information is included in the upl
 It is **always** recommended to use the `Azure Secured: core-gpt-4` model. The `32k` variant of the model does not include additional performance, it is designed to handle enormous queries, and is thusly priced higher. Usage of the `32k` variant for small queries is unnecessary. 
 
 ### Token Budget (`max_tokens`)
-The `max_tokens` argument is used to set a **maximum** budget, in [tokens]({% link /static/concepts/open-ai/tokens.md %}), for the produced content. This is most used for limiting the size of your produced content. For example for LLM queries that produce a `yes`/`no` output, the `max_tokens` parameter can be set to `3`. For an essay length output, the `max_tokens` parameter might be set to `2000`. 
+The `max_tokens` argument is used to set a **maximum** budget, in [tokens]({% link static/concepts/open-ai/tokens.md %}), for the produced content. This is most used for limiting the size of your produced content. For example for LLM queries that produce a `yes`/`no` output, the `max_tokens` parameter can be set to `3`. For an essay length output, the `max_tokens` parameter might be set to `2000`. 
 
 #### Billing Implications
 Please Note that billing only occurs for **used tokens** not the maximum budget. For example, the prompt `say hello` with a max tokens of `6000` will only use a total of `12` tokens (`10` for prompt, `2` for completion).
@@ -47,7 +47,7 @@ Please Note that billing only occurs for **used tokens** not the maximum budget.
 In addition, the output of the `/gpt4 full_context` command will show the billing usage of each invocations. If you are using this tool to craft prompts for programatic use, you can consume this information to better prepare your `max_tokens` parameter.
 
 #### Doing Math 😲
-For each of the models, you have a fixed and finite **maximum** token budget to work from. The formula to compute your `max_token` remaining budget is simple. Please see the [tokens]({% link /static/concepts/open-ai/tokens.md %}) article for an in depth write up of Tokens, as they are not 100% intuitive.
+For each of the models, you have a fixed and finite **maximum** token budget to work from. The formula to compute your `max_token` remaining budget is simple. Please see the [tokens]({% link static/concepts/open-ai/tokens.md %}) article for an in depth write up of Tokens, as they are not 100% intuitive.
 
 ```
 model_limit - prompt_tokens = remaining_tokens
