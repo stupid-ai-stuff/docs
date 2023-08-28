@@ -3,8 +3,6 @@ title: Using the Full Context Command
 permalink: /tutorials/bot/using-full-context-command/
 ---
 
-![Service Icon](https://dcbadge.vercel.app/api/server/9Q5Y5WB9UX?style=flat&theme=default-inverted)
-
 ## Synopsis
 This article will cover the use of the `/gpt4 full_context` command in discord. This command uses the [Discord Application Command Interface](https://discord.com/developers/docs/interactions/application-commands) to interact with the user. This means that all interactions begin with a `/` character.
 
