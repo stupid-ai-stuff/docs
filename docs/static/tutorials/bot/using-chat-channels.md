@@ -15,7 +15,7 @@ The `/chat reset` command is an *oft* overlooked and extremely useful command. T
 
 
 ### Technical Interaction
-The bot uses the [Chat Completions]({% static/concepts/open-ai/chat-completions.md %}) interface <sup>[[1]](#security)</sup>.
+The bot uses the [Chat Completions]({% link static/concepts/open-ai/chat-completions.md %}) interface <sup>[[1]](#security)</sup>.
 
 In order to do this efficiently, all messages sent to and from a **Chat Channel** are stored in a database.
 
