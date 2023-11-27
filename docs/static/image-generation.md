@@ -3,9 +3,13 @@ title: General Prompt Advice
 layout: page
 permalink: /image-generation/
 ---
-
 ## Image Generation using Dall-E 3
 DALL-E 3, the latest iteration of OpenAI's image generation AI, has the remarkable ability to create images from textual descriptions. With advancements in AI image generation methods, DALL-E 3 offers users an intuitive and powerful tool to bring their imaginations to life. To use the DALL-E 3 API effectively, you need to understand the command syntax that instructs the AI on what kind of images you want to generate. In this article, we will delve into the command syntax for DALL-E 3 and explain how AI images are generated using diffusing techniques which underpin this cutting-edge technology.
+
+
+
+![An image of the Discord Inteface showing the basic use of the Full Context Command](../assets/images/image-generation/openAiGeneration-f5cd838e-40ec-4c93-a2a7-514f95c8bf96.png)
+
 
 ### Understanding the Command Syntax:
 The command syntax `/openai dalle images prompt:<prompt> [size:<size>] [style:<style>] [quality:<quality>]` is a structured instruction that tells DALL-E 3 what kind of image you want to produce. This command is unique to the **Stupid AI Stuff Bot**, however its parameters are directly derived from the [OpenAI API](https://platform.openai.com/docs/api-reference/images). 
@@ -13,7 +17,7 @@ The command syntax `/openai dalle images prompt:<prompt> [size:<size>] [style:<s
 ### Parameters
 - `prompt:<prompt>`: This parameter specifies the textual description from which the AI will generate an image. The prompt can be anything from a simple object ("a two-tiered chocolate cake") to complex scenes or abstract concepts ("a futuristic cityscape with flying cars in the style of cyberpunk"). With Dall-E 3, The system expects extremely detailed prompts to create high quality images. Similar to the text api for GPT-4, simple requests with simple requirements generally generate simple results. Likewise, it is wise to utilize longform prompts with Dall-E 3. 
 
-    We have introduced a feature to the [/gpt4 full_context Command]({% link static/tutorials/bot/using-full-context-command/ %}) to generate an image from this .
+    We have introduced a feature to the [/gpt4 full_context Command]({% link static/tutorials/bot/using-full-context-command.md %}) to generate an image from this .
 
 - `size:<size>`: With this parameter, you can define the resolution or dimensions of the output image. Only 3 Sizes are available, Must be one of `1024x1024`, `1792x1024`, or `1024x1792`. The *default* value for this parameter if omitted its `1024x1024`.
 
