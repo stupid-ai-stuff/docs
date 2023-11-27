@@ -44,6 +44,7 @@ kramdown:
 header_pages:
   - about.markdown
   - static/general-prompt-advice.md
+  - static/image-generation.md
   - static/how-not-to-get-fired.md
 
 # Exclude from processing.
