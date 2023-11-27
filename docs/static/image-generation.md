@@ -1,12 +1,10 @@
 ---
-title: General Prompt Advice
+title: Image Generation
 layout: page
 permalink: /image-generation/
 ---
-## Image Generation using Dall-E 3
+
 DALL-E 3, the latest iteration of OpenAI's image generation AI, has the remarkable ability to create images from textual descriptions. With advancements in AI image generation methods, DALL-E 3 offers users an intuitive and powerful tool to bring their imaginations to life. To use the DALL-E 3 API effectively, you need to understand the command syntax that instructs the AI on what kind of images you want to generate. In this article, we will delve into the command syntax for DALL-E 3 and explain how AI images are generated using diffusing techniques which underpin this cutting-edge technology.
-
-
 
 ![An image of the Discord Inteface showing the basic use of the Full Context Command](../assets/images/image-generation/openAiGeneration-f5cd838e-40ec-4c93-a2a7-514f95c8bf96.png)
 
